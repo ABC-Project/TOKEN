@@ -1,0 +1,9 @@
+Building TOKEN
+
+See doc/readme-qt.rst for instructions on building TOKEN QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of TOKEN.
+
+See doc/build-*.txt for instructions on building TOKENd,
+the intended-for-services, no-graphical-interface, reference
+implementation of TOKEN.
