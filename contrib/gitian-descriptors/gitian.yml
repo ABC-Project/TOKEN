@@ -1,7 +1,7 @@
 ---
 name: "TOKEN"
 suites:
-- "lucid"
+- "jessie"
 architectures:
 - "i386"
 - "amd64"
