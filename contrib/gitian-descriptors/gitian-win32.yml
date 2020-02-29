@@ -1,7 +1,7 @@
 ---
 name: "TOKEN"
 suites:
-- "jessie"
+- "precise"
 architectures:
 - "amd64"
 packages: 
