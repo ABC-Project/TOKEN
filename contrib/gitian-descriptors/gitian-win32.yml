@@ -1,9 +1,9 @@
 ---
 name: "TOKEN"
 suites:
-- "precise"
+- "lucid"
 architectures:
-- "amd64"
+- "i368"
 packages: 
 - "mingw32"
 - "git-core"
