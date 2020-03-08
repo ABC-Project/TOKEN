@@ -29,3 +29,10 @@ Once you've got the right hardware and software:
     cd ../gitian-builder
     git pull
     ./bin/gbuild --commit bitcoin=HEAD ../bitcoin/contrib/gitian.yml
+
+
+./bin/gbuild ../TOKEN/contrib/gitian-descriptors/deps-win32.yml
+mv build/out/qt*.zip input/
+
+
+

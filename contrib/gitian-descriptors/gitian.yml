@@ -1,7 +1,7 @@
 ---
 name: "TOKEN"
 suites:
-- "lucid"
+- "precise"
 architectures:
 - "i386"
 - "amd64"
@@ -23,19 +23,19 @@ remotes:
 - "url": "https://github.com/ABC-Project/TOKEN.git"
   "dir": "TOKEN"
 files:
-- "miniupnpc-1.6.tar.gz"
-- "qrencode-3.2.0.tar.bz2"
+- "miniupnpc-1.9.20140401.tar.gz"
+- "qrencode-3.4.3.tar.bz2"
 script: |
   INSTDIR="$HOME/install"
   export LIBRARY_PATH="$INSTDIR/lib"
   #
-  tar xzf miniupnpc-1.6.tar.gz
-  cd miniupnpc-1.6
+  tar xzf miniupnpc-1.9.20140401.tar.gz
+  cd miniupnpc-1.9.20140401.tar.gz
   INSTALLPREFIX=$INSTDIR make $MAKEOPTS install
   cd ..
   #
-  tar xjf qrencode-3.2.0.tar.bz2
-  cd qrencode-3.2.0
+  tar xjf qrencode-3.4.3.tar.bz2
+  cd qrencode-3.4.3
   ./configure --prefix=$INSTDIR --enable-static --disable-shared
   make $MAKEOPTS install
   cd ..
