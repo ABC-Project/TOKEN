@@ -12,6 +12,7 @@ reference_datetime: "2011-01-30 00:00:00"
 remotes: []
 files:
 - "boost_1_55_0.tar.bz2"
+- "boost-mingw-gas-cross-compile-2013-03-03.patch"
 script: |
   TMPDIR="$HOME/tmpdir"
   mkdir -p $TMPDIR/bin/$GBUILD_BITS $TMPDIR/include
