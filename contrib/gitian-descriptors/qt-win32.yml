@@ -12,6 +12,7 @@ reference_datetime: "2011-01-30 00:00:00"
 remotes: []
 files:
 - "qt-everywhere-opensource-src-4.8.5.tar.gz"
+- "bitcoin08-deps-win32-gitian-r12.zip"
 script: |
   INSTDIR="$HOME/qt/"
   mkdir $INSTDIR
